@@ -1,0 +1,105 @@
+/* General Body and Layout */
+body {
+  background: #e3f2fd; /* Softer, modern background color */
+  color: #333; /* Darker text for better readability */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font */
+  margin-top: 4rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* Consistent heading color */
+  font-family: 'Roboto', sans-serif; /* Modern and clean heading font */
+}
+
+/* Navbar and Links */
+.site-header .navbar-nav .nav-link {
+  color: #4caf50; /* Fresh green for links */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #81c784; /* Lighter green on hover */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 600; /* Slightly bolder active link */
+}
+
+/* Section Styling */
+.content-section {
+  background: #ffffff; /* White background for clean, modern sections */
+  padding: 20px;
+  border-radius: 8px; /* Softer corners */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.article-title {
+  color: #333;
+  font-size: 1.8rem; /* Slightly larger title size for clarity */
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a.article-title:hover {
+  color: #2196f3; /* Bright blue on hover */
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+  color: #555; /* Softer text color for body content */
+}
+
+.article-img {
+  height: 80px; /* Slightly larger images */
+  width: 80px;
+  border-radius: 50%; /* Circular images */
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #f1f1f1; /* Lighter border for metadata */
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  transition: transform 0.3s ease; /* Smooth scale effect */
+}
+
+.article-svg:hover {
+  transform: scale(1.2); /* Slight scale effect on hover */
+}
+
+/* Account Section */
+.account-img {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%; /* Circular profile image */
+}
+
+.account-heading {
+  font-size: 2.8rem; /* Larger heading for account section */
+  font-weight: 600; /* Bold text */
+  color: #2c3e50; /* Darker, elegant color for headings */
+  text-transform: uppercase; /* Uppercase for modern style */
+}
+
+/* Smooth Transitions */
+*, *::before, *::after {
+  box-sizing: border-box;
+  transition: all 0.3s ease; /* Smooth transitions for all elements */
+}
+
